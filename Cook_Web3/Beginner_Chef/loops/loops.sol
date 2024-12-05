@@ -30,6 +30,7 @@ contract LoopContract{
             }
         }return counter;
     }
+
     uint [] public longList = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17,18,19,20];
     uint [] public numbersList = [1,4,34,56];
     // Assignment 1 : create a function that loops through numbersList to check if the number inputed by the user is in the array
@@ -37,7 +38,7 @@ contract LoopContract{
     //             * there should be a condition where what the user inputs is === to the number in the array
     //             * finally the bool should be returned
 
-    function checkUserInput(uint num) public view returns (bool){
+    function checkUserInput(uint num) public view returns (bool success){
         for(uint i = 0; i < numbersList.length; i ++){
         if (num == numbersList[i]){
             return true;
@@ -47,12 +48,14 @@ contract LoopContract{
     // Pseudocode: * the function must return an integer, must be public viewed
     //             * create a counter variable and initialize it form 0
     //             * add an if statement that compares the values of the longlist 
-    function evenCounter(uint numberSet, uint counter) public view returns(uint){
-        counter = 0;
-        for (uint i = 0; i < longList.length; i ++){
-           
-        }
-        return counter;
-
+    function evenNumberCounter() public view returns (uint){
+        uint counting = 0;
+        for (uint j = 0; j < longList.length; j ++){
+            if (longList[j] % 2 == 0){
+                counting ++;
+            }
+            
+        }return counting;
     }
+    
 }

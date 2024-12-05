@@ -9,30 +9,6 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "num2",
-						"type": "uint256"
-					}
-				],
-				"name": "checkMultiples",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "num",
 						"type": "uint256"
 					}
@@ -50,11 +26,11 @@
 			},
 			{
 				"inputs": [],
-				"name": "evenNumberCounter",
+				"name": "evenCounter",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "counter",
 						"type": "uint256"
 					}
 				],
@@ -84,49 +60,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					}
-				],
-				"name": "multiplierCheck",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "counter",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
 				"name": "numbersList",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "randomArray",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -151,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Cook_Web3/Beginner_Chef/loops/loops.sol": "LoopContract"
+			"Cook_Web3/Beginner_Chef/loops/loops.sol": "looper"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -166,11 +104,11 @@
 	},
 	"sources": {
 		"Cook_Web3/Beginner_Chef/loops/loops.sol": {
-			"keccak256": "0x421b2d94c58eeebc69ca530e2f6e114f1be8de9ca912333c59a8995c2d181996",
+			"keccak256": "0x7d9605c4f278aaa8243c36847d086c2ba6173404c87ad1a56c3423de1bc617be",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d1ae76b35227e2a4500dd665d5c2ed837206aab373507a9564c2c706f2643af",
-				"dweb:/ipfs/QmNTFJHSmCn9pQNn6NYdKYRjsFTJTDdxYGTRxetrgyaovx"
+				"bzz-raw://446563e6cf16251b081804b13ade182679dae6a48ca9e0a39cf5cc6f96c9f0a5",
+				"dweb:/ipfs/QmPyyBLBv99KwJQxaC2C6TxJSktZpah3fPfLWu4j7udpqh"
 			]
 		}
 	},

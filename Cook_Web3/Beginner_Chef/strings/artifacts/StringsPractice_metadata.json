@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": "StringsPractice"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": {
+			"keccak256": "0x4a301f1d8ffcc1439b2440da350d14eac4316bc2d737ad3199963259f69da0a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83318f2d13fe96e3bf47c3ff90c0dd0eaaee44020aae62cf3eb7c2690051c315",
+				"dweb:/ipfs/QmUxMXdHdCfAUWMWRH9uxsEq3A6BR8kMmDm4kAsNDzGGNs"
+			]
+		}
+	},
+	"version": 1
+}
