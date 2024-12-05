@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol": "LearnVariables"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol": {
+			"keccak256": "0xf9e17fb69c30010fbe86c503fb267cb6e2b6912a27d9bf7ac0443b2c015ce0b0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://736121edf4bd9da0cbe2cc0a91ca859c36a2ec5b10f73b5bf4bdef9407286703",
+				"dweb:/ipfs/QmeGz8F8XzBHeZzz1mRErApE3JBxn1YfZqURztbyB3ByY8"
+			]
+		}
+	},
+	"version": 1
+}

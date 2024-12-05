@@ -1,0 +1,414 @@
+{
+	"id": "4a707df1bc9e03ccf311bf827f722a1c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.26",
+	"solcLongVersion": "0.8.26+commit.8a97fa7a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity >0.7.0 <= 0.9.0;\r\n\r\n// Data types and varibles\r\n/* variables are places in code that store some information \r\n    variables retain space in memory as they store a certain value\r\n*/\r\n// Variables used are Booleans, integers and strings\r\n\r\n// Booleans : bool: check if something is true or false\r\n// Integers: uint: for integers of many sizes\r\n// Strings: string: ordered sequence of characters\r\n\r\n// Since solidity is a contract language, we use the contract keyword\r\n\r\ncontract LearnVariables{\r\n    uint choco = 10;\r\n\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"contracts": {
+			"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol": {
+				"LearnVariables": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":518:569  contract LearnVariables{... */\n  mstore(0x40, 0x80)\n    /* \"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":561:563  10 */\n  0x0a\n    /* \"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":548:563  uint choco = 10 */\n  0x00\n  sstore\n    /* \"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":518:569  contract LearnVariables{... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":518:569  contract LearnVariables{... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa26469706673582212203f4fff696c3587fd99eed521b549879fc5c85d46bf2e0c7bd4028c989fd9c5fe64736f6c634300081a0033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052600a5f553480156012575f80fd5b50603e80601e5f395ff3fe60806040525f80fdfea26469706673582212203f4fff696c3587fd99eed521b549879fc5c85d46bf2e0c7bd4028c989fd9c5fe64736f6c634300081a0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0xA PUSH0 SSTORE CALLVALUE DUP1 ISZERO PUSH1 0x12 JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1E PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EXTCODEHASH 0x4F SELFDESTRUCT PUSH10 0x6C3587FD99EED521B549 DUP8 SWAP16 0xC5 0xC8 TSTORE CHAINID 0xBF 0x2E 0xC PUSH28 0xD4028C989FD9C5FE64736F6C634300081A0033000000000000000000 ",
+							"sourceMap": "518:51:0:-:0;;;561:2;548:15;;518:51;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f80fdfea26469706673582212203f4fff696c3587fd99eed521b549879fc5c85d46bf2e0c7bd4028c989fd9c5fe64736f6c634300081a0033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 EXTCODEHASH 0x4F SELFDESTRUCT PUSH10 0x6C3587FD99EED521B549 DUP8 SWAP16 0xC5 0xC8 TSTORE CHAINID 0xBF 0x2E 0xC PUSH28 0xD4028C989FD9C5FE64736F6C634300081A0033000000000000000000 ",
+							"sourceMap": "518:51:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "22169",
+								"totalCost": "34569"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 561,
+									"end": 563,
+									"name": "PUSH",
+									"source": 0,
+									"value": "A"
+								},
+								{
+									"begin": 548,
+									"end": 563,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 548,
+									"end": 563,
+									"name": "SSTORE",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 518,
+									"end": 569,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a26469706673582212203f4fff696c3587fd99eed521b549879fc5c85d46bf2e0c7bd4028c989fd9c5fe64736f6c634300081a0033",
+									".code": [
+										{
+											"begin": 518,
+											"end": 569,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 518,
+											"end": 569,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 518,
+											"end": 569,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 518,
+											"end": 569,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 518,
+											"end": 569,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 518,
+											"end": 569,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.26+commit.8a97fa7a\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":\"LearnVariables\"},\"evmVersion\":\"cancun\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol\":{\"keccak256\":\"0xf9e17fb69c30010fbe86c503fb267cb6e2b6912a27d9bf7ac0443b2c015ce0b0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://736121edf4bd9da0cbe2cc0a91ca859c36a2ec5b10f73b5bf4bdef9407286703\",\"dweb:/ipfs/QmeGz8F8XzBHeZzz1mRErApE3JBxn1YfZqURztbyB3ByY8\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [
+							{
+								"astId": 4,
+								"contract": "Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol:LearnVariables",
+								"label": "choco",
+								"offset": 0,
+								"slot": "0",
+								"type": "t_uint256"
+							}
+						],
+						"types": {
+							"t_uint256": {
+								"encoding": "inplace",
+								"label": "uint256",
+								"numberOfBytes": "32"
+							}
+						}
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol": {
+				"ast": {
+					"absolutePath": "Cook_Web3/Beginner_Chef/Variables/variables-and-types.sol",
+					"exportedSymbols": {
+						"LearnVariables": [
+							5
+						]
+					},
+					"id": 6,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">",
+								"0.7",
+								".0",
+								"<=",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:32:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "LearnVariables",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 5,
+							"linearizedBaseContracts": [
+								5
+							],
+							"name": "LearnVariables",
+							"nameLocation": "527:14:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"constant": false,
+									"id": 4,
+									"mutability": "mutable",
+									"name": "choco",
+									"nameLocation": "553:5:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 5,
+									"src": "548:15:0",
+									"stateVariable": true,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 2,
+										"name": "uint",
+										"nodeType": "ElementaryTypeName",
+										"src": "548:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"value": {
+										"hexValue": "3130",
+										"id": 3,
+										"isConstant": false,
+										"isLValue": false,
+										"isPure": true,
+										"kind": "number",
+										"lValueRequested": false,
+										"nodeType": "Literal",
+										"src": "561:2:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_rational_10_by_1",
+											"typeString": "int_const 10"
+										},
+										"value": "10"
+									},
+									"visibility": "internal"
+								}
+							],
+							"scope": 6,
+							"src": "518:51:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "33:536:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

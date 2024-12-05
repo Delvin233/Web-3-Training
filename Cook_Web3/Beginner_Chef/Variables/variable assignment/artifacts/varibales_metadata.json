@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/Variables/variable assignment/wallet.sol": "varibales"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/Variables/variable assignment/wallet.sol": {
+			"keccak256": "0xc7b970b02612487c631acd54edf81cdf0d70eacc188560e0d02a7c77efa166f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b55037d151df8a6db9ff8826d708f3ba92282dddc5e108181b7a1b5a97fbbbfa",
+				"dweb:/ipfs/QmQdjJSMScJU2CyBAm2Con7U9XCwhxApBX7oiZKeGTEYLQ"
+			]
+		}
+	},
+	"version": 1
+}

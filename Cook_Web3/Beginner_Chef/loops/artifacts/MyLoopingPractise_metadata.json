@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "longList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numbersList",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"web3/Cook_Web3/Beginner_Chef/loops/loops.sol": "MyLoopingPractise"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"web3/Cook_Web3/Beginner_Chef/loops/loops.sol": {
+			"keccak256": "0x5166bceb6f728f6869c045a7aedbb230f77860d2d99c6ac73159d19268aa5e96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef6bb4060a5f3ed4390bcb8e2b87975a28794cbdff28fb4a8bdcc5d15f1b418e",
+				"dweb:/ipfs/QmQZ1J37UpyeTsVbpC3bVDnQvDjFKfrfn5UcchZnaWUSNz"
+			]
+		}
+	},
+	"version": 1
+}

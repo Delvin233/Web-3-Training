@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "closedDoor",
+						"type": "bool"
+					}
+				],
+				"name": "RemoteControlOpen",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/functions/functionIntro/functions.sol": "LearnFunctions"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/functions/functionIntro/functions.sol": {
+			"keccak256": "0x72ae5fa4fb038f417a27b682129b139349f954aac55fac11f39a42595e418887",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://62a256ff506df9d870eaaac5183fb8627145423fc779816b490a50b7617d16f2",
+				"dweb:/ipfs/QmdYJNJYFVtryoF8Pmi8aZMSm8SrLnRpx4J6MaFSaTkUHz"
+			]
+		}
+	},
+	"version": 1
+}

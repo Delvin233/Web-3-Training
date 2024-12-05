@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum DataCollection.ResidencyStatus",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"name": "PersonAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfResident",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "LivesHereOrNot",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CeloBootcamp/week 2/intro-to-solidity.sol": "DataCollection"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CeloBootcamp/week 2/intro-to-solidity.sol": {
+			"keccak256": "0x5084295e34aef3b867024b652e0b4509802f8e6283599694e8a9a3606db9d986",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://521f4b0000e7ad64fe5559e223055fe75de5718745df2946cef4c32d7ad22c73",
+				"dweb:/ipfs/QmYytwc1uHyuGsvmdSiohdia6JQeqxpa9Fk8rkKvZcUZyd"
+			]
+		}
+	},
+	"version": 1
+}

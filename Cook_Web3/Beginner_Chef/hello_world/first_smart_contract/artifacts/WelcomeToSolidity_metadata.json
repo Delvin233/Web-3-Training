@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/hello_world/first_smart_contract/firstSmartContract.sol": "WelcomeToSolidity"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/hello_world/first_smart_contract/firstSmartContract.sol": {
+			"keccak256": "0x4b80dbde5a4f283d1d226d08e70fa888a6bd443ef2474f5c767c364b8d1fa738",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e58cd5535a6db9253a80ee3ec2ce6c7613d61622d2e95e13b07f41983364707",
+				"dweb:/ipfs/QmR8eF4e9o3VixptYnd6vijthKa3VNUnEnR9P8zeNM4i2q"
+			]
+		}
+	},
+	"version": 1
+}
