@@ -7,25 +7,32 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "Hello",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "colorWhite",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "lengthOfAString",
+				"name": "getDefault",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "enum ShirtColor.colorOfShirt",
 						"name": "",
-						"type": "uint256"
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getWhite",
+				"outputs": [
+					{
+						"internalType": "enum ShirtColor.colorOfShirt",
+						"name": "",
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
@@ -45,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": "StringsPractice"
+			"Cook_Web3/Beginner_Chef/constructors/enums/enumpractise.sol": "ShirtColor"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": {
-			"keccak256": "0xc47cd04f1ceabae3a3594c31f04c795b671cfd958c70e1145523c9d983a55e5c",
+		"Cook_Web3/Beginner_Chef/constructors/enums/enumpractise.sol": {
+			"keccak256": "0xd9396a091e25ca08fe4a3322284f068ea16fd02c44a681c21652a03a6ed3d77e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5a2d97a65aee9b0b25ad9cfd670e7a6f60820d237c3a849926c7873feeefd760",
-				"dweb:/ipfs/QmQDKzj8wzRbUT7NQXSQ5vpuN5wH79aaiuV3Pi9wcPfHn8"
+				"bzz-raw://25a096b7f8647b31ac6bf863ff71b2c3635e0832e26bcfaad91f88f3389b5cf6",
+				"dweb:/ipfs/QmbkszE4gv9zrjC1c1vNcF3F84WfBgkCgBTYodTaXUGJVR"
 			]
 		}
 	},

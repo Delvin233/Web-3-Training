@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/constructors/constructors.sol": "Base"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/constructors/constructors.sol": {
+			"keccak256": "0x4c51f4ca234cb1487809019c0c0f69c148187d4a4baa092d8dc4eedc37a89e07",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d6ccced173b24b7da0e70fc5b20689217751ec4e94db1709235281873ae201a",
+				"dweb:/ipfs/Qmdt2DfrMLXDG7cveqoCNj9HaUoTvrUotpxtPRjzui7oPy"
+			]
+		}
+	},
+	"version": 1
+}

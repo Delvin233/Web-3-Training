@@ -6,30 +6,20 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "Hello",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "names",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "lengthOfAString",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "ages",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			}
 		],
 		"devdoc": {
@@ -45,7 +35,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": "StringsPractice"
+			"Cook_Web3/Beginner_Chef/constructors/constructors.sol": "Student"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +49,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": {
-			"keccak256": "0xc47cd04f1ceabae3a3594c31f04c795b671cfd958c70e1145523c9d983a55e5c",
+		"Cook_Web3/Beginner_Chef/constructors/constructors.sol": {
+			"keccak256": "0x799578a77fbbec7d24ad284280b5a99df580a3b59494ad6a388d9872901c75e7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5a2d97a65aee9b0b25ad9cfd670e7a6f60820d237c3a849926c7873feeefd760",
-				"dweb:/ipfs/QmQDKzj8wzRbUT7NQXSQ5vpuN5wH79aaiuV3Pi9wcPfHn8"
+				"bzz-raw://49749ca0971c2b2de9e38549541fed3ce3c4789abf8974757bd1a51407cee101",
+				"dweb:/ipfs/QmexXMPdeT3jwMZ6KqWE2gJbwPoZkxKvFWZde9BHQsjaTY"
 			]
 		}
 	},

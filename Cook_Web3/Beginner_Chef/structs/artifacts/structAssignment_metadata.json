@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/structs/structs.sol": "structAssignment"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/structs/structs.sol": {
+			"keccak256": "0x50537b421fb82a451dcc25126abfdc14ed09e53e693fbd5085be6ab8b6b78a96",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eab12d297862f48d8c82d5ee2f5319c48fc9a7d4d0f107897663706b2c21322f",
+				"dweb:/ipfs/QmTr8M6n1sUmCHDyC42WpykFTrhxR7a95BqQSxXuHy9Ebt"
+			]
+		}
+	},
+	"version": 1
+}

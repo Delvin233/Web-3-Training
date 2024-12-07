@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/bits and units/bits and units.sol": "bitsAndUnits"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/bits and units/bits and units.sol": {
+			"keccak256": "0x0fc10c9d6d2b73622844ad7e181c4e27241c3d46b759def2d467f937f7e5e046",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d81b026ddd67a4eb1a2fcf979327263bc9b20153d082824595f1900902eca62",
+				"dweb:/ipfs/QmegK8WzdFMrVQjXXwsvTKRn6888CC9YEo4Yp9uiWgMHJS"
+			]
+		}
+	},
+	"version": 1
+}

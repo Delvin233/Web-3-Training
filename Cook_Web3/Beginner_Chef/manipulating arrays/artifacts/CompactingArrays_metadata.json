@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/manipulating arrays/manipuateArray.sol": "CompactingArrays"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/manipulating arrays/manipuateArray.sol": {
+			"keccak256": "0x757d4a1997ab270d4218c867bffb391ef7dcd07b823ae213df9dfac17d520edc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a0b4e47aaaf5046832044d09f090e306420fca852c74bf022771e66065b9a79",
+				"dweb:/ipfs/QmQ3ZVBRQL6Fw3UYp2MVmirnrJs53FGeFM846ognZkcjRb"
+			]
+		}
+	},
+	"version": 1
+}

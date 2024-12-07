@@ -6,8 +6,21 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_colorchange",
+						"type": "string"
+					}
+				],
+				"name": "changeColor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "Hello",
+				"name": "color",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,7 +33,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "lengthOfAString",
+				"name": "favouriteColor",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lettersInColor",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -45,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": "StringsPractice"
+			"Cook_Web3/Beginner_Chef/strings/stringsInSolidity.sol": "Colors"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},

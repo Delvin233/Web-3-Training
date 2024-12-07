@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Spenderr",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "SpenderAddress",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nestedAddresses",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "SpenderAddress",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "SpenderAddress",
+						"type": "string"
+					}
+				],
+				"name": "valueoOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "SpenderAddress",
+						"type": "string"
+					}
+				],
+				"name": "valueofSpender",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/mapping/nested mapping/nestedMapping.sol": "AddessPair"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/mapping/nested mapping/nestedMapping.sol": {
+			"keccak256": "0xd8e796fb2331d7b7fb902fa1f8c32c3d1dd33482eb28649f141e641628822620",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://647f5c5d419df550c4d09d8f8479acbc1e96995a06509dce0c5f013bddc4e740",
+				"dweb:/ipfs/QmVr23w5unvQAwKN9SorFECuCpjdWitWiqjqKYxvtzFDef"
+			]
+		}
+	},
+	"version": 1
+}
