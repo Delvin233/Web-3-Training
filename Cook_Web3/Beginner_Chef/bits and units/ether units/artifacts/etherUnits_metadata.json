@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "learnUnits",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/bits and units/ether units/ether-units.sol": "etherUnits"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/bits and units/ether units/ether-units.sol": {
+			"keccak256": "0x88d597d3cd2d542d6614ce6d612e65b2bbbd3c2cc0fd01798d34baf8d4d392f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ead6cbbfc103cc02fbc0f146fe17d4aa97d5cd61b7eeb7dbf3fdaa8396ed8fbe",
+				"dweb:/ipfs/QmU9qhaiqzZ7FCFnttAEUjCKiD3isRhVoeJn44Tpo2gpc1"
+			]
+		}
+	},
+	"version": 1
+}
