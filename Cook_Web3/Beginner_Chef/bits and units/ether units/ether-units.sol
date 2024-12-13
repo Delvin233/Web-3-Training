@@ -12,6 +12,7 @@ contract etherUnits{
     }
     // assert times and dates in solidity
     function assertTime() public pure{
-        assert (60 second = 1 minute );
+        assert (60 seconds == 1 minutes );
+        assert (1 hours == 60 minutes);
     }
 }

@@ -6,17 +6,16 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "assertTime",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalances",
+						"type": "uint256"
+					}
+				],
+				"name": "changeBal",
 				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "learnUnits",
-				"outputs": [],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -33,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Cook_Web3/Beginner_Chef/bits and units/ether units/ether-units.sol": "etherUnits"
+			"Cook_Web3/Beginner_Chef/global variables/global-variables.sol": "LedgerBalance"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -47,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Cook_Web3/Beginner_Chef/bits and units/ether units/ether-units.sol": {
-			"keccak256": "0xf7c8f2c1a2961ce4ca76afbb88a4918ca8ce3bff9c1d810c8b7d054f21038825",
+		"Cook_Web3/Beginner_Chef/global variables/global-variables.sol": {
+			"keccak256": "0xcd118ee7fc1843dd063e2615d6eec73bbd4e95a6c457b360cc0e0450e02cecd5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://71494f413a6b627300c039ef23a594ad3f9374c90d241737e74f8de2430242aa",
-				"dweb:/ipfs/QmbgVm1d8hwJezJSGQDXJqtz2r8bWz3Bb9y3XhyURyZ2J1"
+				"bzz-raw://03ac4aff1f2075701147279d4a285ff3c3a2649992c27dffce765e42474dabe9",
+				"dweb:/ipfs/QmaC3ewftBFoHxYob1ALXTwwLHua7zGqmkjgF2GW27XEUA"
 			]
 		}
 	},
