@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cook_Web3/Beginner_Chef/function modifiers/functionMod.sol": "Owner"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cook_Web3/Beginner_Chef/function modifiers/functionMod.sol": {
+			"keccak256": "0xfbae0233070f912583ce9bcf871c5ae289cffb4aa584050a151f12f5a9a621be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d42b1ca0875a6203c4bde5b442e1fe92ffe1bf9ac1e06789bb38e140409dad06",
+				"dweb:/ipfs/QmNZTXyzvjsews9tqrdSV2nKojtsWdtdGjEebBpnMCFRAs"
+			]
+		}
+	},
+	"version": 1
+}
