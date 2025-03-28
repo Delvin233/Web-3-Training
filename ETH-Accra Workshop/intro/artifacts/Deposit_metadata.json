@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ETH-Accra Workshop/campusTour.sol": "Deposit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ETH-Accra Workshop/campusTour.sol": {
+			"keccak256": "0x229b49cad44a9a0b5ea4d743353316ebd74e66b5ee6cda18c4f0fefcad99ed41",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c25f51095713023b397db588b2827f8dc3978a7e8672c3108e176e392bdd9a01",
+				"dweb:/ipfs/QmPv28nH7Tu3mhhESurDN2geGxNrC1puuwdeZseqM5va6j"
+			]
+		}
+	},
+	"version": 1
+}
